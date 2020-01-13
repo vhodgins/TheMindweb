@@ -1,0 +1,104 @@
+body {
+  margin: 0 5px 0 5px;
+  padding: 0;
+  background: linear-gradient(to right, rgb(82, 78, 110), rgb(97, 168, 134));
+}
+
+header {
+  text-align: center;
+  margin: 5px auto 0 auto;
+  padding-bottom: 15px;
+  background: rgb(80, 85, 120);
+}
+
+.main {
+    background: rgba(96, 102, 145, 0.57) ;  
+    width: 90%;
+    border: 1px solid rgb(55, 51, 57);
+    border-radius: 3px;
+    margin: 25px auto 0 6%;
+    padding: 5px;
+
+}
+
+
+.item p {
+  font-family: Arial;
+  font-size: 11pt;
+  font-style: italic;
+  text-align: center;
+  color: rgb(71, 72, 94)
+}
+
+.item h4 {
+  font-family: Arial;
+  text-align: center;
+  color: rgb(71, 72, 94)
+}
+
+
+.item {
+  margin: 0 3% 0 3%;
+  background: rgb(205, 205, 215);
+  display: inline-block;
+  width: 25%;
+  border: 1px solid rgb(77, 68, 97);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+header nav ul {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+header nav ul li{
+  width: 20%;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 16pt;
+  color: lightgreen;
+  padding-top: 15px;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+#chap1 {
+  margin-left: 4.5%;
+}
+
+.About p {
+  text-indent: 40px;
+}
+
+.About {
+  font-family: Calibri;
+  text-align: center;
+  color: lightgreen;
+  padding-bottom: 40px;
+}
+
+.About h2 {
+  height: 40px;
+  font-weight: 100;
+}
+
+.About p {
+  margin: 0 7% 0 7%;
+  text-align: justify;
+  font-weight: 100;
+}
+
+#title {
+  size : 36pt;
+}

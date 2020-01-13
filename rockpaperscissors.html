@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <style media="screen">
+
+      body {
+        font-family: Calibri;
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(51, 195, 113);
+      }
+
+      header {
+        display: flex;
+        background-color: rgb(20, 20, 20);
+
+      }
+
+      nav {
+        color: rgb(249, 243, 191);
+        width: 100%;
+        text-align: center;
+      }
+
+      .player {
+        float: left;
+        background-color: rgb(61, 121, 76);
+        width: 20%;
+        height: 88.4vh;
+        border: 21px solid rgb(61, 121, 76);
+        border-radius: 1px;
+      }
+
+      .computer {
+          float: right;
+          background-color: rgb(61, 121, 76);
+          width: 20%;
+          height: 88.4vh;
+          border: 21px solid rgb(61, 121, 76);
+          border-radius: 1px;
+      }
+
+      .score {
+        margin-left: 25.5%;
+        text-align: center;
+        background: white;
+        float: left;
+      }
+
+      .icons2 {
+        display: inline-block;
+      }
+
+      .icons2 img {
+
+        width: 200px;
+        margin-bottom: 60px;
+      }
+
+      .icons {
+        display: inline-block;
+      }
+
+      .icons img {
+
+        width: 200px;
+        margin-bottom: 60px;
+      }
+
+      .icons .option:hover {
+        animation-name: right;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes right {
+        100% {
+
+          margin-left: 100px;
+        }
+      }
+
+
+      .option {
+
+        margin-bottom: 0px;
+
+      }
+
+    </style>
+
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Rock Paper Scissors!</h1>
+      </nav>
+    </header>
+
+
+    <main>
+
+
+      <div class="player">
+
+        <div class="icons">
+          <div class="option">
+              <img src="rpsassets/fist.png" alt="rock" id="fist">
+          </div>
+          <div class="option">
+            <img src="rpsassets/hand.png" alt="paper" id="hand">
+          </div>
+          <div class="option">
+            <img src="rpsassets/peace.png" alt="paper" id="hand">
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="score">
+        <h2><span id="playerscore"></span>:<span id="computerscore"></span></h2>
+      </div>
+
+      <div class="computer">
+        <div class="icons2">
+          <div class="option">
+              <img src="rpsassets/fist.png" alt="rock" id="fist">
+          </div>
+          <div class="option">
+            <img src="rpsassets/hand.png" alt="paper" id="hand">
+          </div>
+          <div class="option">
+            <img src="rpsassets/peace.png" alt="paper" id="hand">
+          </div>
+      </div>
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+
+
+  </body>
+</html>
